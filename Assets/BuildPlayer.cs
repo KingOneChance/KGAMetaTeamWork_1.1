@@ -6,7 +6,7 @@ using UnityEditor.Build.Reporting;
 
 public class BuildPlayer : MonoBehaviour
 {
-    [MenuItem("Build/Build AOS(Debug")]
+    [MenuItem("Build/Build AOS")]
     public static void Build_AOS_Debug()
     {
         BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
