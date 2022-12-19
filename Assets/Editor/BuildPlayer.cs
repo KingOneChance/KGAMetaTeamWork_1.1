@@ -8,7 +8,7 @@ using System;
 public class BuildPlayer : MonoBehaviour
 {
     [MenuItem("Build/Build AOS")]
-    public static void Build_AOS_Debug()
+    public static void JenkinsBuilder()
     {
         BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
         buildPlayerOptions.scenes = new[] { "Assets/Scenes/SampleScene.unity"};
