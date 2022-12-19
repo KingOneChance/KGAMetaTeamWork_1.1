@@ -10,7 +10,7 @@ public class MyBuildScript : MonoBehaviour
     {
         BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
         buildPlayerOptions.scenes = new[] { "Assets/Scenes/SampleScene.unity"};
-        buildPlayerOptions.locationPathName = "Build";
+        buildPlayerOptions.locationPathName = "BuildT";
         buildPlayerOptions.target = BuildTarget.StandaloneWindows64;
         buildPlayerOptions.options = BuildOptions.None;
 
