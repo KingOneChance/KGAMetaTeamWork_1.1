@@ -7,7 +7,6 @@ using System;
 
 public class BuildPlayer : MonoBehaviour
 {
-    [MenuItem("Build/Build AOS")]
     public static void JenkinsBuilder()
     {
         BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
