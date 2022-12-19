@@ -6,7 +6,7 @@ using UnityEditor.Build.Reporting;
 
 public class MyBuildScript : MonoBehaviour
 {
-    public static void MyBuild()
+    public static void Build_AOS_Debug()
     {
         BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
         buildPlayerOptions.scenes = new[] { "Assets/Scenes/SampleScene.unity"};
