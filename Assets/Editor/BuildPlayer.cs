@@ -12,7 +12,7 @@ public class BuildPlayer : MonoBehaviour
     {
         BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
         buildPlayerOptions.scenes = new[] { "Assets/Scenes/SampleScene.unity"};
-        buildPlayerOptions.locationPathName = "onechance.exe";
+        buildPlayerOptions.locationPathName = "BuildT/onechance.exe";
         //buildPlayerOptions.locationPathName = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
         buildPlayerOptions.target = BuildTarget.StandaloneWindows64;
         buildPlayerOptions.options = BuildOptions.None;
