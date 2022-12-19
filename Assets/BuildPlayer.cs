@@ -4,8 +4,9 @@ using UnityEditor.Build.Reporting;
 
 // Output the build size or a failure depending on BuildPlayer.
 
-public class MyBuildScript : MonoBehaviour
+public class BuildPlayer : MonoBehaviour
 {
+    [MenuItem("Build/Build AOS(Debug")]
     public static void Build_AOS_Debug()
     {
         BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
